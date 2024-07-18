@@ -25,19 +25,16 @@ const Navbar = () => {
       </Link>
       <ul className="nav-menu">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">EVENT</Link>
         </li>
         <li>
-          <Link to="/services">Services</Link>
+          <Link to="/services">CATEGORY</Link>
         </li>
         <li>
-          <Link to="/project">Project</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">CONTACT US</Link>
         </li>
       </ul>
     </div>
