@@ -4,6 +4,7 @@ import Upbar from "../Components/Upbar.js";
 import HomeImage from "../Components/HomeImage.js";
 import SearchEvent from "../Components/SearchEvent.js";
 import UpComingevents from "../Components/UpComingevents.js";
+import Categories from "../Components/Categories.js";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeImage />
       <SearchEvent />
       <UpComingevents />
+      <Categories />
     </div>
   );
 };

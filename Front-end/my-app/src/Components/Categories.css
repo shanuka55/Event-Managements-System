@@ -1,0 +1,24 @@
+.categories {
+    margin-top: 3rem;
+}
+.categories-heading{
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.categories-heading div{
+    width: 5px;
+    height: 30px;
+    background-color: aqua;
+    margin-left: 8rem;   
+}
+.categories-heading h1 {
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.categories-heading button {
+    text-transform: uppercase;
+    margin-left: 38rem;
+}
