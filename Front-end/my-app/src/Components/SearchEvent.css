@@ -1,6 +1,6 @@
 .Search-event-container{
     width: 100%;
-    height: 25vh;
+    height: 45vh;
     background-color: #32a478;
 }
 
@@ -8,12 +8,15 @@
     color: white;
     font-size: 32px;
     text-align: center;
-    padding: 2rem;
-    
+    padding: 5rem;
+    padding-bottom: 2rem;
 }
 .search {
-    
-    
+    width: 700px;
+    height: 60px;
+    margin-left: 25rem;
+    background-color: #0d0c22;
+    align-items: center;
 }
 
 .group {
@@ -21,7 +24,7 @@
     line-height: 28px;
     align-items: center;
     position: relative;
-    max-width: 700px;
+    max-width: 800px;
     
     
   }
@@ -38,6 +41,7 @@
     color: #0d0c22;
     box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
     transition: .3s ease;
+    font-size: 25px;
   }
   
   .input::placeholder {
