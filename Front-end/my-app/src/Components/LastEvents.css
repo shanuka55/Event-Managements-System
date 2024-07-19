@@ -1,0 +1,114 @@
+.lastEvent {
+    margin-top: 3rem;
+    justify-content: center;
+}
+.lastEvent-heading{
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.lastEvent-heading div{
+    width: 5px;
+    height: 30px;
+    background-color: aqua;
+    margin-left: 8rem;   
+}
+.lastEvent-heading h1 {
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.lastEvent-heading button {
+    text-transform: uppercase;
+    margin-left: 50rem;
+}
+
+
+.latest-grid {
+    margin-left: 9rem;
+    position: relative;
+    align-items: center;
+    display: flex;
+    
+}
+
+.latest-grid img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event-res img {
+    height: 100%;
+}
+
+.event-info{
+    padding: 2rem;
+    
+}
+
+.latest-grid .event-time {
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 20px;
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 144, 144);
+}
+
+.latest-grid .event-time span {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.latest-grid .event-time span:first-child {
+    font-size: 33px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.latest-grid .event-time span:last-child {
+    margin: 0;
+}
+
+.latest-grid .event-info h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 5px;
+
+}
+
+.latest-grid .event-info ul {
+    color: #666;
+    padding: 0;
+    margin: 0 0 5px;
+    list-style: none;
+}
+
+.latest-grid .event-info ul li {
+    font-size: 24px;
+    line-height: 25px;
+    padding-right: 8px;
+    margin-right: 5px;
+    border-right: 1px solid #333;
+    display: inline-block;
+}
+
+.latest-grid .event-info ul li:last-child {
+    border-right: none;
+}
+
+.latest-grid .event-info p {
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+

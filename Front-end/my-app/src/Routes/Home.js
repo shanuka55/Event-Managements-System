@@ -5,6 +5,7 @@ import HomeImage from "../Components/HomeImage.js";
 import SearchEvent from "../Components/SearchEvent.js";
 import UpComingevents from "../Components/UpComingevents.js";
 import Categories from "../Components/Categories.js";
+import LastEvents from "../Components/LastEvents.js";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <SearchEvent />
       <UpComingevents />
       <Categories />
+      <LastEvents />
     </div>
   );
 };

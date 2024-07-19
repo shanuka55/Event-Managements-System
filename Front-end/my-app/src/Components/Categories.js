@@ -1,5 +1,10 @@
 import React from "react";
 import "./Categories.css";
+import music from "../Assets/music.jpg";
+import learning from "../Assets/learning.jpg";
+import food from "../Assets/food.jpg";
+import festival from "../Assets/festival.jpg";
+import event from "../Assets/event-promotion.png";
 
 const Categories = () => {
   return (
@@ -14,19 +19,29 @@ const Categories = () => {
 
       <section className="card-container">
         <div className="card-item">
-          <image />
+          <h4>Music</h4>
+          <img src={music} alt="music" />
+          <div className="card-mask"></div>
         </div>
         <div className="card-item">
-          <image />
+          <h4>festival</h4>
+          <img src={festival} alt="festival" />
+          <div className="card-mask"></div>
         </div>
         <div className="card-item">
-          <image />
+          <h4>food & drinks</h4>
+          <img src={food} alt="food" />
+          <div className="card-mask"></div>
         </div>
         <div className="card-item">
-          <image />
+          <h4>learning</h4>
+          <img src={learning} alt="learning" />
+          <div className="card-mask"></div>
         </div>
         <div className="card-item">
-          <image />
+          <h4>promotional</h4>
+          <img src={event} alt="event" />
+          <div className="card-mask"></div>
         </div>
       </section>
     </div>
