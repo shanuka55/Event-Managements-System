@@ -6,6 +6,7 @@ import SearchEvent from "../Components/SearchEvent.js";
 import UpComingevents from "../Components/UpComingevents.js";
 import Categories from "../Components/Categories.js";
 import LastEvents from "../Components/LastEvents.js";
+import Footer from "../Components/Footer.js";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <UpComingevents />
       <Categories />
       <LastEvents />
+      <Footer />
     </div>
   );
 };

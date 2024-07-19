@@ -4,6 +4,10 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
+      <section className="before-footer">
+        <h2>SOFT EDGE LAB EVENTS</h2>
+        <h3>Copyright</h3>
+      </section>
       <section className="footer">
         <div className="footer-row">
           <div className="footer-col">
