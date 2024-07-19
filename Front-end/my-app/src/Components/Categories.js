@@ -11,6 +11,24 @@ const Categories = () => {
           <span>see all categories</span>
         </button>
       </div>
+
+      <section className="card-container">
+        <div className="card-item">
+          <image />
+        </div>
+        <div className="card-item">
+          <image />
+        </div>
+        <div className="card-item">
+          <image />
+        </div>
+        <div className="card-item">
+          <image />
+        </div>
+        <div className="card-item">
+          <image />
+        </div>
+      </section>
     </div>
   );
 };

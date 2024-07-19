@@ -22,3 +22,23 @@
     text-transform: uppercase;
     margin-left: 38rem;
 }
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card-item {
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+    margin: 20px;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
