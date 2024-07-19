@@ -1,9 +1,16 @@
 import React from "react";
+import EventSection from "../Components/EventSection";
+import Upbar from "../Components/Upbar";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const Event = () => {
   return (
     <div>
-      <h1>This is event page</h1>
+      <Upbar />
+      <Navbar />
+      <EventSection />
+      <Footer />
     </div>
   );
 };
